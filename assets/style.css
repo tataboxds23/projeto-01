@@ -1,0 +1,296 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Começa aqui*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url('wall-3.jpg');
+    background-size: cover;
+}
+
+
+p.space{
+    display: none;
+}
+
+.space{
+    position: relative;
+    top: -230px;
+}
+
+div.container{
+    width: 45%;
+    position: relative;
+    top: -350px;
+    left: 730px;
+}
+
+div.container2{
+    width: 40%;
+    position: relative;
+    top: -295px;
+    left: 730px;
+}
+
+div.inicio{
+    position: relative;
+    width: 25%;
+    top: 58px;
+    left: 340px;
+    height: 510px;
+}
+
+div.inicio1{
+    position: relative;
+    width: 33%;
+    top: 58px;
+    left: 340px;
+    height: 510px;
+}
+
+h3.tabela2{
+    margin-top: 5px;
+}
+
+.manchete,.tabela1,.tabela2{
+    color: white;
+}
+
+.cartoes{
+    color: white;
+}
+
+.cartoes1{
+    color: white;
+    display: none;
+}
+
+.olar{
+    color: red;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.botao{
+    background: orange;
+    width: 61%;
+    height: 28px;
+    border: solid;
+    border-color: orange;
+    border-radius: 12px;
+}
+
+.botaoj{
+    background: orange;
+    width: 61%;
+    height: 28px;
+    border: solid;
+    border-color: orange;
+    border-radius: 12px;
+}
+
+.botaoz{
+    background: orange;
+    width: 61%;
+    height: 28px;
+    border: solid;
+    border-color: orange;
+    border-radius: 12px;
+    display: none;
+    position: relative;
+    bottom: 160px;
+}
+
+.campo{
+    width: 73%;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 24px;
+}
+
+.campo1{
+    width: 12%;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 24px;
+    position: relative;
+    right: 75px;
+}
+
+.campo2{
+    width: 12%;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 24px;
+    position: relative;
+    top: -53px;
+    left: 75px;
+}
+
+.botao2{
+    background: orange;
+    width: 61%;
+    height: 28px;
+    border: solid;
+    border-color: orange;
+    border-radius: 12px;
+    position: absolute;
+    top: 305px;
+    left: 395px;
+}
+
+.botao3{
+    background: orange;
+    width: 61%;
+    height: 28px;
+    border: solid;
+    border-color: orange;
+    border-radius: 12px;
+    position: absolute;
+    top: 360px;
+    left: 395px;
+}
+
+.botao5{
+    background: orange;
+    width: 61%;
+    height: 28px;
+    border: solid;
+    border-color: orange;
+    border-radius: 12px;
+}
+
+.pontos1,.pontos1{
+    color: yellow;
+    font-weight: bold;
+}
+
+.vitorias,.derrotas,.empates,.total{
+    color: yellow;
+    font-weight: bold;
+}
+
+.titulo{
+    color: white;
+}
+
+.titulo1{
+    color: white;
+    display: none;
+    position: relative;
+    top: -32px;
+    left: 11px;
+}
+
+.x{
+    position: absolute;
+    top: 60px;
+    right: 166px;
+    color: red;
+    font-weight: bold;
+}
+
+.x1{
+    position: absolute;
+    top: 195px;
+    right: 166px;
+    color: red;
+    font-weight: bold;
+}
+
+.contagem{
+    background-color: rgba(255, 255, 255, 0);
+    width: 565px;
+    height: 580px;
+    position: absolute;
+    top: 25px;
+    right: 90px;
+}
+
+.campo3{
+    background-color: white;
+    width: 30%;
+    height: 21px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    position: relative;
+    right: 45px;
+    display: none;
+}
+
+.campo4{
+    background-color: white;
+    width: 10%;
+    height: 17px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    position: relative;
+    left: 65px;
+    bottom: 205px;
+    display: none;
+}
+
+.campo5{
+    color: yellow;
+    position: relative;
+    margin-top: 10px;
+    right: -657px;
+    bottom: 213px;
+    width: 15%;
+    margin-right: 230px;
+    font-weight: bold;
+    display: none;
+}
+
+.mostra{
+    position: relative;
+    bottom: 180px;
+}
+
